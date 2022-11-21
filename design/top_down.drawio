@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Smseb0Y5ZLO8-_wWjXUX" name="Page-1">
-        <mxGraphModel dx="1298" dy="150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1258" dy="203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -22,12 +22,32 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="27" style="edgeStyle=none;rounded=0;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="16">
+                <mxCell id="27" style="edgeStyle=none;rounded=0;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="330" y="380" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="414" y="380"/>
                             <mxPoint x="310" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="4" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="414" y="380"/>
+                            <mxPoint x="520" y="380"/>
+                            <mxPoint x="520" y="470"/>
+                            <mxPoint x="660" y="470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;rounded=0;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="414" y="380"/>
+                            <mxPoint x="310" y="380"/>
+                            <mxPoint x="310" y="460"/>
+                            <mxPoint x="180" y="460"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -43,7 +63,7 @@
                 <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" target="20">
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="230" y="320" as="sourcePoint"/>
                         <Array as="points">
@@ -51,7 +71,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="21">
+                <mxCell id="24" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="21" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="230" y="320" as="sourcePoint"/>
                         <Array as="points">
@@ -80,25 +100,25 @@
                 <mxCell id="10" value="get third angle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="170" y="340" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Check if two angles out of three, are equal" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="354" y="430" width="120" height="60" as="geometry"/>
+                <mxCell id="11" value="Check if all angles are the equal" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="525" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="Show awnser" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="540" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Check&amp;nbsp; if all three angles are equal." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="430" width="120" height="60" as="geometry"/>
+                <mxCell id="16" value="Check if all three angles add up to 180&lt;sup&gt;o&lt;/sup&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="525" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="get second angle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="20" value="get second angle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="340" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="Get first angle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="21" value="Get first angle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-90" y="340" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="Check if none of the angles are equal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="490" y="430" width="120" height="60" as="geometry"/>
+                <mxCell id="25" value="check if two out of three angle are the equal" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="525" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" style="edgeStyle=none;rounded=0;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="25">
+                <mxCell id="28" style="edgeStyle=none;rounded=0;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4" target="25" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="340" y="430" as="targetPoint"/>
                         <mxPoint x="444" y="310" as="sourcePoint"/>
@@ -107,6 +127,12 @@
                             <mxPoint x="520" y="380"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="Check if none of the angles are equal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="525" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Check the triangle if it is even a triangle based on user input." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="525" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
