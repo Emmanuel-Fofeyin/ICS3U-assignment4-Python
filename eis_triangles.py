@@ -12,7 +12,7 @@ def main():
     # input
     x_string = input("Enter in the 1st angle: ")
     y_string = input("Enter in the 2nd angle: ")
-    z_string = input("Enter in a 3rd angle: ")
+    z_string = input("Enter in the 3rd angle: ")
 
     # process and output
     try:
@@ -30,7 +30,7 @@ def main():
             elif x_number == y_number or y_number == z_number or x_number == z_number:
                 print("\nThese angles make an Isosceles triangle!")
             else:
-                print("These angles make a Scalene triangle!")
+                print("\nThese angles make a Scalene triangle!")
         else:
             print("This is not a triangle")
     except ValueError:
